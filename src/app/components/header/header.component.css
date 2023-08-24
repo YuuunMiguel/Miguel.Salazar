@@ -1,0 +1,36 @@
+
+    .mi-div {
+      display: flex;
+      align-items: flex-start; /* Cambiado a flex-start */
+    }
+  
+    .caja-roja {
+      width: 40px;
+      height: 60px;
+      background-color: purple;
+      margin-right: 10px;
+    }
+  
+    .contenido {
+      margin-left: 20px;
+      text-align: center;
+    }
+  
+    h1, p {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    h1 {
+
+        font-size: large;
+    }
+  
+    .imagen-central {
+      display: block;
+      margin: 10px auto;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
